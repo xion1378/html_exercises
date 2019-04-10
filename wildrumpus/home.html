@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+<title>Wild Rumpus</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<link rel="shortcut icon" href="home.ico"/>
+
+
+<style>
+
+body {
+        background-color: #FADEC9;
+    }
+    .column1 {
+        width: 100%;
+    }
+
+    h1 {
+
+        width: 845px;
+        height: 121px;
+        left: 297px;
+        top: 151px;
+
+        font-family: Stymie,serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: normal;
+        text-align: center;
+
+        color: #6E8DEE;
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 80px;
+        margin-top: 80px;
+
+    }
+
+    h3 {
+        width: 348px;
+        height: 23px;
+        left: 546px;
+        top: 358px;
+
+        font-family: Filson Soft,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: normal;
+        text-align: center;
+
+        color: #6E8DEE;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    h4 {
+        width: 241px;
+        height: 23px;
+        left: 599px;
+        top: 392px;
+
+        font-family: Filson Soft,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: normal;
+        text-align: center;
+
+        color: #6E8DEE;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    h5 {
+        width: 348px;
+        height: 21px;
+        left: 546px;
+        top: 426px;
+
+        font-family: Filson Soft,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: normal;
+        text-align: center;
+
+        color: #6E8DEE;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 120px;
+
+
+    }
+
+    .w3-container {
+        background-color: #F2FBFE;
+        width: auto;
+    }
+
+    .w3-container2 {
+        background-color: #F9F4B7;
+        width: auto;
+    }
+
+
+   h2 {
+
+       font-family: Filson Soft,sans-serif;
+       font-style: normal;
+       font-weight: 500;
+       font-size: 40px;
+       line-height: normal;
+       color: #6E8DEE;
+       margin-top: 90px;
+       text-align: left;
+
+
+       width: 490px;
+       height: 48px;
+       left: 841px;
+       top: 590px;
+
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+
+    }
+
+    p {
+        width: 487px;
+        height: 223px;
+        left: 117px;
+        top: 655px;
+
+        font-family: Stymie,serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: normal;
+        text-align: left;
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        color: #6E8DEE;
+
+    }
+
+    u {
+        font-family: Filson Soft,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: normal;
+        color: #6E8DEE;
+
+        width: 490px;
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 90px;
+
+    }
+
+
+    a:link {
+        color: #6E8DEE;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: #6E8DEE;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #FF674C;
+    }
+
+
+    img:hover {
+        opacity: .85;
+        filter: alpha(opacity=80);
+    }
+
+    .center {
+
+        width: 452px;
+        height: 86px;
+        left: 494px;
+        top: 38px;
+        display: block;
+        margin: 20px auto 10px;
+
+    }
+
+    .about {
+        position: absolute;
+        width: 129px;
+        height: 28px;
+        left: 90px;
+        top: 50px;
+
+        font-family: Filson Soft;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: normal;
+        color: #6E8DEE;
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .bookstore {
+        position: absolute;
+        width: 129px;
+        height: 28px;
+        left: 285px;
+        top: 50px;
+
+        font-family: Filson Soft;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: normal;
+        color: #6E8DEE;
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .animals {
+        position: absolute;
+        width: 211px;
+        height: 28px;
+        left: 1200px;
+        top: 50px;
+
+        font-family: Filson Soft;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: normal;
+        color: #6E8DEE;
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .visit {
+        position: absolute;
+        width: 89px;
+        height: 24px;
+        left: 1500px;
+        top: 50px;
+
+        font-family: Filson Soft;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: normal;
+        color: #6E8DEE;
+
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .cloud1 {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        left: 50px;
+        top: 50px;
+    }
+
+    .cloud2 {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        left: 1200px;
+        top: 100px;
+    }
+
+    .cloud3 {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        left: 550px;
+        top: 250px;
+    }
+
+.cloud4 {
+
+    display: block;
+    position: absolute;
+    z-index: -1;
+    left: -30px;
+    top: 500px;
+}
+
+.cloud5 {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    left: 700px;
+    top: 600px;
+}
+
+.cloud6 {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    left: 1250px;
+    top: 400px;
+}
+
+
+
+
+    .girl {
+
+        left: 1680px;
+        top: 130px;
+        z-index: 1;
+    position: absolute;
+    -webkit-animation: mymove 40s;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 40s;
+    animation-iteration-count: infinite;
+        overflow: hidden;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {left: 200px;}
+    to {right: 200px;}
+}
+
+@keyframes mymove {
+    from {right: 200px;}
+    to {left: 200px;}
+}
+
+
+</style>
+
+<body>
+
+
+<a href="home.html">
+    <img src="wildrumpus.png" height="86" width="452" class="center">
+</a>
+
+    <div class="w3-padding w3-display-topmiddle"></div>
+</div>
+
+
+<div class="column1">
+    <h1> Wild Rumpus is a whimsical bookstore for
+        young readers located on the west side
+        of Lake Harriet in Minneapolis.</h1>
+    <h3><a>Shop Now >></a></h3>
+    <h4><a>Upcoming Events >></a></h4>
+    <h5><a>My Account >></a></h5>
+
+</div>
+
+
+<div class="w3-cell-row">
+    <div class="w3-container  w3-cell w3-cell-top">
+        <h2><a href="bookstore.html" target="_self">Bookstore</a></h2>
+        <p>Board books and picture books, chapter books and reference books,
+            biographies, myths, folktales, poetry, and more. We carry a beautiful
+            collection of children's literature for age zero through young adult.
+            We have a section for parents, too! Check out our best sellers, store
+            picks, and staff favorites.</p>
+       <u><a href="bookstore.html" target="_self">Read More</a></u>
+    </div>
+
+    <div class="w3-container2 w3-cell w3-cell-middle">
+        <h2><a href="animals.html" target="_self">Meet the Animals</a></h2>
+        <p>Today, the store has cats, a chicken, a tarantula, birds, rats, ferrets, chinchillas,
+            lots of fish (in the bathroom) and more! At one time, Norman, the potbelly
+            pig lived at the store, too. You are welcome to meet, pet and hold animals with assistance.</p>
+        <u><a href="animals.html" target="_self">Read More</a></u>
+    </div>
+
+<!----------clouds and girl---------->
+
+
+<img class=cloud1 src="cloud1.png" height="250" width="430" alt="cloud"/>
+<img class=cloud2 src="cloud2.png" height="250" width="430" alt="cloud"/>
+<img class=cloud3 src="cloud3.png" height="200" width="300" alt="cloud"/>
+    <img class=cloud4 src="cloud3.png" height="150" width="400"/>
+    <img class=cloud5 src="cloud1.png" height="250" width="430"/>
+    <img class=cloud6 src="cloud1.png" height="250" width="430"/>
+
+
+<nav> <a class="about" href="about.html" target="_self">About Us</a></nav>
+<nav> <a class="bookstore" href="bookstore.html" target="_self">Bookstore</a></nav>
+<nav> <a class="animals" href="animals.html" target="_self">Meet the Animals</a></nav>
+<nav> <a class="visit" href="visit.html" target="_self">Visit Us</a></nav>
+
+    <div>
+        <img class="girl" src="girlballoons.png" width="201px" height="403px"/></div>
+    <div>
+
+</body>
+
+</html>

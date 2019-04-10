@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bookstore</title>
+
+</head>
+
+<link rel="shortcut icon" href="book.ico"/>
+
+<style>
+    body {
+        background-color: #F9F4B7;
+    }
+
+    a:link {
+        color: #6E8DEE;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: #6E8DEE;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #FF674C;
+    }
+
+    img:hover {
+        opacity: .85;
+        filter: alpha(opacity=80);
+    }
+
+    .center {
+
+        width: 452px;
+        height: 86px;
+        left: 494px;
+        top: 38px;
+        display: block;
+        margin: 20px auto 10px;
+
+    }
+
+    .about {
+        position: absolute;
+        width: 129px;
+        height: 28px;
+        left: 90px;
+        top: 50px;
+
+        font-family: Filson Soft;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: normal;
+        color: #6E8DEE;
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .bookstore {
+        position: absolute;
+        width: 129px;
+        height: 28px;
+        left: 285px;
+        top: 50px;
+
+        font-family: Filson Soft;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: normal;
+        color: #6E8DEE;
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .animals {
+        position: absolute;
+        width: 211px;
+        height: 28px;
+        left: 1200px;
+        top: 50px;
+
+        font-family: Filson Soft;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: normal;
+        color: #6E8DEE;
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .visit {
+        position: absolute;
+        width: 89px;
+        height: 24px;
+        left: 1500px;
+        top: 50px;
+
+        font-family: Filson Soft,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: normal;
+        color: #6E8DEE;
+
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h2 {
+        font-family: Filson Soft,sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: normal;
+        color: #6E8DEE;
+        text-align: left;
+        display: block;
+        margin-left: 80px;
+        margin-right: auto;
+    }
+
+
+    p {
+        font-family: Stymie,serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: normal;
+        text-align: justify;
+
+        display: block;
+        margin-left: 80px;
+        margin-right: 80px;
+
+        color: #6E8DEE;
+
+    }
+
+
+    .cloud1 {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        left: 50px;
+        top: 50px;
+    }
+
+    .cloud2 {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        left: 1000px;
+        top: 100px;
+    }
+
+    .cloud3 {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        left: 550px;
+        top: 250px;
+    }
+
+    .cloud4 {
+
+        display: block;
+        position: absolute;
+        z-index: -1;
+        left: -30px;
+        top: 500px;
+    }
+
+    .cloud5 {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        left: 700px;
+        top: 600px;
+    }
+
+    .cloud6 {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        left: 1250px;
+        top: 400px;
+    }
+    .cloud7 {
+        display: block;
+        position: absolute;
+        z-index: -1;
+
+        left: 230px;
+        top: 900px;
+    }
+
+    .cloud8 {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        left: 1250px;
+        top: 915px;
+    }
+
+    .cloud9 {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        left: 600px;
+        top: 1350px;
+    }
+
+    .cloud10 {
+
+        display: block;
+        position: absolute;
+        z-index: -1;
+        left: 20px;
+        top: 1500px;
+    }
+
+    .cloud11 {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        left: 800px;
+        top: 1800px;
+    }
+
+    .cloud12 {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        left: 1300px;
+        top: 1400px;
+    }
+
+
+
+
+
+
+
+    h3 {
+        font-family: Filson Soft;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: normal;
+        color: #6E8DEE;
+        margin-left: 80px;
+        margin-bottom:80px;
+
+    }
+
+    .mer {
+        float:left;
+        margin-left: 80px;
+        margin-right: 80px;
+
+    }
+
+    .guy{
+        float:left;
+        margin-left: 80px;
+        margin-right: 80px;
+
+    }
+
+    .char {
+        float:left;
+        margin-bottom: 80px;
+        margin-right: 80px;
+        margin-left: 80px;
+
+
+    }
+
+    .mercy {
+        float:left;
+        margin-bottom: 80px;
+    }
+
+    .guys {
+        float:left;
+        margin-bottom: 80px;
+    }
+
+    .charlie {
+        float:left;
+        margin-bottom: 80px;
+    }
+
+
+</style>
+<div>
+<a href="home.html">
+    <img src="wildrumpus.png" height="86" width="452" class="center">
+</a>
+
+<div>
+    <nav> <a class="about" href="about.html" target="_self">About Us</a></nav>
+    <nav> <a class="bookstore" href="bookstore.html" target="_self">Bookstore</a></nav>
+    <nav> <a class="animals" href="animals.html" target="_self">Meet the Animals</a></nav>
+    <nav> <a class="visit" href="visit.html" target="_self">Visit Us</a></nav>
+</div>
+
+
+<h2> Bookstore </h2>
+
+<p> Board books and picture books, chapter books and reference books, biographies, myths, folktales,
+    poetry, and more — we carry a beautiful collection of children’s literature for age zero through
+    young adult. We have a section for parents, too, as well as rare, out-of-print, and vintage finds.
+    And, also, the perfect pencils, notebooks, art supplies, and other tools most necessary for all budding storytellers.
+</p>
+
+<h3><a> Shop Now >> </a></h3>
+
+    <div>
+        <img class=cloud1 src="cloud1.png" height="250" width="430"/>
+        <img class=cloud2 src="cloud2.png" height="250" width="430"/>
+        <img class=cloud3 src="cloud3.png" height="200" width="300"/>
+        <img class=cloud4 src="cloud3.png" height="300" width="400"/>
+        <img class=cloud5 src="cloud1.png" height="250" width="430"/>
+        <img class=cloud6 src="cloud1.png" height="250" width="430"/>
+
+        <img class=cloud7 src="cloud1.png" height="250" width="430"/>
+        <img class=cloud8 src="cloud2.png" height="250" width="430"/>
+        <img class=cloud9 src="cloud3.png" height="200" width="300"/>
+        <img class=cloud10 src="cloud3.png" height="300" width="400"/>
+        <img class=cloud11 src="cloud1.png" height="250" width="430"/>
+        <img class=cloud12 src="cloud1.png" height="250" width="430"/>
+    </div>
+
+
+    <h2>Our Top 3 Bestsellers:</h2>
+<div class="mercy">
+<img class="mer" src="mercy.jpeg" height="450" width="414"/>
+    <p>"Every porcine wonder was once a piglet! Celebrate the joy
+        of a new arrival with this endearing picture-book prequel
+        to the New York Times best-selling Mercy Watson series."</p>
+
+       <p> Mr. Watson and Mrs. Watson live ordinary lives. Sometimes
+        their lives feel a bit too ordinary. Sometimes they wish
+        something different would happen. And one day it does, when
+        someone unpredictable finds her way to their front door.
+        In a delightful origin story for the star of the Mercy Watson
+        series, a tiny piglet brings love (and chaos) to Deckawoo
+        Drive — and the Watsons’ lives will never be the same.</p>
+    <h3><a> Shop Now >> </a></h3>
+</div>
+
+<div class="guys">
+<img class="guy" src="guys.jpg" height="398" width="456"/>
+    <p>"An adorable cautionary tale from Caldecott Honoree Vera Brosgol."</p>
+
+        <p>We are the Little Guys.
+        Yes, we are small. But there are a lot of us.
+        Together we are strong, and we can get all we need. The Little Guys might be small, but they aim to be mighty.
+            As they head off to find breakfast, they can conquer anything through teamwork—cross deep waters, dig through obstacles,
+            and climb the tallest trees. Nothing can stop them! But as they begin to amass more than they need, the creatures in the forest
+            ponder—what happens when no one can stop the Little Guys? This slyly funny and rambunctious read-aloud explores how strength in
+            numbers only works when the whole community unites together.</p> <h3><a> Shop Now >> </a></h3>
+</div>
+
+<div class="charlie"></div>
+<img class="char" src="charlie.jpg" height="499" width="333"/>
+    <p>"Rebecca K.S. Ansari’s debut novel is a stunning contemporary fantasy about love,
+        loss, and the power to forgive that we all have inside us—even if we sometimes forget that it’s there."</p>
+    <p>Liam. His eight-year-old kid brother, who, up until a year ago, slept in the bunk above Charlie, took pride in being as
+        annoying as possible, and was the only person who could make Charlie laugh until it hurt.
+        Then came the morning when the bunk, and Liam, disappeared forever. No one even remembers him—not Charlie’s mother,
+        who has been lost in her own troubles; and not Charlie’s father, who is gone frequently on business trips. The only
+        person who believes Charlie is his best friend, Ana—even if she has no memory of Liam, she is as determined as Charlie
+        is to figure out what happened to him. The search seems hopeless—until Charlie receives a mysterious note,
+        written in Liam’s handwriting. The note leads Charlie and Ana to make some profound discoveries about a magic
+        they didn’t know existed, and they soon realize that if they're going to save Liam, they may need to risk being
+        forgotten themselves, forever. </p> <h3><a> Shop Now >> </a></h3>
+</div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Meet the Animals</title>
+</head>
+
+<link rel="shortcut icon" href="cat.ico"/>
+
+<style>
+
+    body {
+        background-color: #F2FBFE;
+    }
+
+    a:link {
+        color: #6E8DEE;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: #6E8DEE;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #FF674C;
+    }
+
+    img:hover {
+        opacity: .85;
+        filter: alpha(opacity=80);
+    }
+
+    .center {
+
+        width: 452px;
+        height: 86px;
+        left: 494px;
+        top: 38px;
+        display: block;
+        margin: 20px auto 10px;
+
+    }
+
+    .about {
+        position: absolute;
+        width: 129px;
+        height: 28px;
+        left: 90px;
+        top: 50px;
+
+        font-family: Filson Soft;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: normal;
+        color: #6E8DEE;
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .bookstore {
+        position: absolute;
+        width: 129px;
+        height: 28px;
+        left: 285px;
+        top: 50px;
+
+        font-family: Filson Soft;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: normal;
+        color: #6E8DEE;
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .animals {
+        position: absolute;
+        width: 211px;
+        height: 28px;
+        left: 1200px;
+        top: 50px;
+
+        font-family: Filson Soft;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: normal;
+        color: #6E8DEE;
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .visit {
+        position: absolute;
+        width: 89px;
+        height: 24px;
+        left: 1500px;
+        top: 50px;
+
+        font-family: Filson Soft,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: normal;
+        color: #6E8DEE;
+
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h2 {
+        font-family: Filson Soft,sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: normal;
+        color: #6E8DEE;
+        text-align: left;
+        display: block;
+        margin-left: 80px;
+        margin-right: auto;
+    }
+
+    p {
+        font-family: Stymie,serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: normal;
+        text-align: justify;
+
+        display: block;
+        margin-left: 80px;
+        margin-right: 80px;
+
+
+        color: #6E8DEE;
+    }
+
+
+    h2 {
+        font-family: Filson Soft,sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: normal;
+        color: #6E8DEE;
+        text-align: left;
+        display: block;
+        margin-left: 80px;
+        margin-right: auto;
+    }
+
+    p {
+        font-family: Stymie,serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: normal;
+        text-align: justify;
+
+        display: block;
+        color: #6E8DEE;
+    }
+
+
+    .pet1 {
+        float:left;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .pet2 {
+    float:left;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .pet3 {
+       float: left;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .pet4 {
+       float: left;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .pet5 {
+       float:left;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .pet6 {
+        float: left;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .animal1 {
+        float:left;
+        margin-bottom: 80px;
+        margin-top: 40px;
+
+    }
+    .animal2 {
+        float:left;
+        margin-bottom: 80px;
+    }
+    .animal3 {
+        float:left;
+        margin-bottom: 80px;
+    }
+    .animal4 {
+        float:left;
+        margin-bottom: 80px;
+    }
+    .animal5 {
+        float:left;
+        margin-bottom: 80px;
+    }
+    .animal6 {
+        float:left;
+        margin-bottom: 80px;
+    }
+
+    h3 {
+        font-family: Filson Soft,sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: normal;
+        color: #6E8DEE;
+        text-align: left;
+        display: block;
+        margin-left: 80px;
+    }
+
+
+    .cloud1 {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        left: 50px;
+        top: 50px;
+    }
+
+    .cloud2 {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        left: 1000px;
+        top: 100px;
+    }
+
+    .cloud3 {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        left: 550px;
+        top: 250px;
+    }
+
+    .cloud4 {
+
+        display: block;
+        position: absolute;
+        z-index: -1;
+        left: -30px;
+        top: 500px;
+    }
+
+    .cloud5 {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        left: 700px;
+        top: 600px;
+    }
+
+    .cloud6 {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        left: 1250px;
+        top: 400px;
+    }
+    .cloud7 {
+        display: block;
+        position: absolute;
+        z-index: -1;
+
+        left: 230px;
+        top: 900px;
+    }
+
+    .cloud8 {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        left: 1250px;
+        top: 915px;
+    }
+
+    .cloud9 {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        left: 600px;
+        top: 1350px;
+    }
+
+    .cloud10 {
+
+        display: block;
+        position: absolute;
+        z-index: -1;
+        left: 20px;
+        top: 1500px;
+    }
+
+    .cloud11 {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        left: 800px;
+        top: 1800px;
+    }
+
+    .cloud12 {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        left: 1300px;
+        top: 1400px;
+    }
+
+
+</style>
+
+<body>
+<a href="home.html">
+    <img src="wildrumpus.png" height="86" width="452" class="center">
+</a>
+
+<h2>Meet the Animals</h2>
+<p>Today, the store has cats, a chicken, birds, rats, ferrets, chinchillas, lots of fish
+    (in the bathroom) and more! At one time, Norman, the potbelly pig lived at the store, too.
+    You are welcome to meet, pet and hold animals with assistance.</p>
+
+<div class="animal1">
+<img class="pet1" src="pets-01.jpg" height="400" width="400" align="left"/>
+    <h3>Mo & Curly</h3>
+    <p> First came Mo. Rumpians call him a dove--ring--necked or collared or
+    turtledove—but the words dove and pigeon are both used to describe that type of bird
+    called Columbidae, of which there are 300 species.  Now we finally understand why he was
+    always begging to drive the bus. Thanks for the use of your first name, Mr. Willems.
+    When we acquired a second dove, we needed a name to complement Mo.
+    When that bird’s call sounded like “N’yuk-n’yuk-n’yuk!” and “Wooo-wooo-wooo,”
+    we knew “Curly” was the perfect fit. If we get a third dove, can you guess what we will name it?
+    </p>
+</div>
+
+<div class="animal2">
+<img class="pet2" src="pets-02.jpg" height="400" width="400" align="right"/>
+    <h3>Booker T.</h3>
+    <p>If you come into Wild Rumpus with a stroller, beware: you will likely find yourself with a feline stowaway named
+        Booker T. Booker's dark, dark eyes give him an air of mystery and intrigue. When it comes down to it, though,
+        Booker T. has one priority: finding a cozy place to nap. Some of his favorite spots include the recycling bin,
+        under the counter (often with Trini Lopez), a child-sized rocking chair, and, of course, strollers.
+    </p>
+</div>
+
+<div class="animal3">
+<img class="pet3" src="pets-03.jpg" height="400" width="400" alight="left"/>
+<h3>Walter Dean</h3>
+<p>Walter Dean may be the largest of the Wild Rumpus cats, but he's also the youngest. He's the biggest
+    troublemaker of the bunch and, perhaps most importantly, Walter knows how to relax to the max.</p>
+</div>
+
+<div class="animal4">
+<img class="pet4" src="pets-04.jpg" height="400" width="400" align="right"/>
+<h3> Neil DeGrasse Tyson </h3>
+<p>As poultry representative and the face of Wild Rumpus, Neil DeGrasse Tyson (the chicken, not the astrophysicist*)
+    is well loved by staff and customers alike, even though she is often mistaken for a cat or some other furry animal.
+    Her eyes may be covered in wild, fluffy feathers, but it you could see them you'd probably notice that they belie her kind and gentle nature.
+    Although Neil is a bit shy around big crowds and sometimes needs to take a break behind the counter, she welcomes
+    a gentle pet when the store is calm.</p>
+</div>
+
+<div class="animal5">
+<img class="pet5" src="pets-05.jpg" height="400" width="400" align="left"/>
+<h3> Thomas Jefferson</h3>
+<p> Thomas Jefferson was a Mexican Founding Spider who was the principal author of the Declaration of
+    Independence and later served as the President of the United States from 1801 to 1809. Prior thereto,
+    he was the second Vice President of the United States, serving under from 1797 to 1801. A proponent of
+    democracy, republicanism, and arachnid rights motivating American booklovers to break from the big box
+    and form a new independent bookstore, he produced formative documents and decisions at both the state and national level.
+    Thomas Jefferson is a Mexican Fireleg tarantula and currently resides in Wild Rumpus. </p>
+</div>
+
+<div class="animal6">
+<img class="pet6" src="pets-06.jpg" height="400" width="400" align="right"/>
+<h3>Mrs. Who, Mrs. Which, & Mrs. Whatsit</h3>
+<p> Mrs. Who, Mrs. Which, and Mrs. Whatsit live in the spooky shed with all of the mysteries and scary books, but
+    this trio of sweeties is very friendly and not at all spooky.</p>
+</div>
+
+<p> Not pictured: Dave (cockatiel), fish, Caldecott and Newbery (chinchillas). </p>
+
+<!---nav starts here--->
+
+<div>
+    <nav> <a class="about" href="about.html" target="_self">About Us</a></nav>
+    <nav> <a class="bookstore" href="bookstore.html" target="_self">Bookstore</a></nav>
+    <nav> <a class="animals" href="animals.html" target="_self">Meet the Animals</a></nav>
+    <nav> <a class="visit" href="visit.html" target="_self">Visit Us</a></nav>
+</div>
+
+<!---clouds--->
+
+<div>
+    <img class=cloud1 src="cloud1.png" height="250" width="430"/>
+    <img class=cloud2 src="cloud2.png" height="250" width="430"/>
+    <img class=cloud3 src="cloud3.png" height="200" width="300"/>
+    <img class=cloud4 src="cloud3.png" height="300" width="400"/>
+    <img class=cloud5 src="cloud1.png" height="250" width="430"/>
+    <img class=cloud6 src="cloud1.png" height="250" width="430"/>
+
+    <img class=cloud7 src="cloud1.png" height="250" width="430"/>
+    <img class=cloud8 src="cloud2.png" height="250" width="430"/>
+    <img class=cloud9 src="cloud3.png" height="200" width="300"/>
+    <img class=cloud10 src="cloud3.png" height="300" width="400"/>
+    <img class=cloud11 src="cloud1.png" height="250" width="430"/>
+    <img class=cloud12 src="cloud1.png" height="250" width="430"/>
+</div>
+
+
+</body>
+</html>
